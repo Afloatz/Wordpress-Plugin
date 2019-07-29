@@ -10,4 +10,6 @@ wp-config.php
 wp-login.php
 wp-settings.php
 
-
+.htaccess
+/.idea/
+.gitignore

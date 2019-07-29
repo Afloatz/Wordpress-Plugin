@@ -13,4 +13,5 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-echo 123;
+// Load CSS and Javascript scripts
+require_once(plugin_dir_path(__FILE__).'/includes/youtubesubs-scripts.php');
