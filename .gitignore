@@ -1,0 +1,15 @@
+/wp-admin/
+
+/wp-includes/
+
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/uploads/
+
+wp-config.php
+wp-login.php
+wp-settings.php
+
+
+
+
