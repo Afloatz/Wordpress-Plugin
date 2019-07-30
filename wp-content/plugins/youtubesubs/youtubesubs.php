@@ -15,3 +15,14 @@ if (!defined('ABSPATH')) {
 
 // Load CSS and Javascript scripts
 require_once(plugin_dir_path(__FILE__).'/includes/youtubesubs-scripts.php');
+
+// Load Class (the widget)
+require_once(plugin_dir_path(__FILE__).'/includes/youtubesubs-class.php');
+
+// Register Widget
+function register_youtubesubs(){
+    register_widget('Youtube_Subs_Widget'); // We pass the name of the class as an argument
+}
+
+// Hook in function (the different hooks are given in the Wordpress documentation Codex)
+add_action('widgets_init', 'register_youtubesubs');
