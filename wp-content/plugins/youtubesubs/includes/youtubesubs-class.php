@@ -31,7 +31,7 @@ class Youtube_Subs_Widget extends WP_Widget {
         }
 
         // Widget content output
-        echo '<div class="g-ytsubscribe" data-channelid="UCSse-lNI1DQ4w-8lh7vfPUw" data-layout="full" data-count="default"></div>';
+        echo '<div class="g-ytsubscribe" data-channelid="'.$instance['channel'].'" data-layout="full" data-count="default"></div>';
 
         echo $args['after_widget'];
     }
@@ -45,6 +45,7 @@ class Youtube_Subs_Widget extends WP_Widget {
      */
     public function form( $instance ) {
         $title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'YouTube Subs', 'yts_domain' );
+        $channel = ! empty( $instance['channel'] ) ? $instance['channel'] : esc_html__( 'Lolywood', 'yts_domain' );
         ?>
 
         <!-- TITLE -->
@@ -58,6 +59,19 @@ class Youtube_Subs_Widget extends WP_Widget {
                     name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
                     type="text"
                     value="<?php echo esc_attr( $title ); ?>">
+        </p>
+
+        <!-- CHANNEL -->
+        <p>
+            <label for="<?php echo esc_attr( $this->get_field_id( 'channel' ) ); ?>">
+                <?php esc_attr_e( 'Channel:', 'yts_domain' ); ?>
+            </label>
+            <input
+                    class="widefat"
+                    id="<?php echo esc_attr( $this->get_field_id( 'channel' ) ); ?>"
+                    name="<?php echo esc_attr( $this->get_field_name( 'channel' ) ); ?>"
+                    type="text"
+                    value="<?php echo esc_attr( $channel ); ?>">
         </p>
         <?php
     }
@@ -74,7 +88,8 @@ class Youtube_Subs_Widget extends WP_Widget {
      */
     public function update( $new_instance, $old_instance ) {
         $instance = array();
-        $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? sanitize_text_field( $new_instance['title'] ) : '';
+
+        $instance['channel'] = ( ! empty( $new_instance['channel'] ) ) ? sanitize_text_field( $new_instance['channel'] ) : '';
 
         return $instance;
     }

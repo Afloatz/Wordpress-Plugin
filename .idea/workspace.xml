@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e70566-8fe8-44b0-88f3-50da14fb4113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-scripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/youtubesubs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/youtubesubs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="366">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -61,9 +59,9 @@
         <option value="$PROJECT_DIR$/readme.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/plugins/youtubesubs/js/main.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/youtubesubs/youtubesubs.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-scripts.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php" />
       </list>
     </option>
   </component>
@@ -159,12 +157,12 @@
       <workItem from="1564382249412" duration="3610000" />
       <workItem from="1564413181759" duration="2497000" />
       <workItem from="1564478347709" duration="1227000" />
-      <workItem from="1564490888662" duration="2895000" />
+      <workItem from="1564490888662" duration="3902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10732000" />
+    <option name="totallyTimeSpent" value="11739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -240,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtubesubs/includes/youtubesubs-class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="366">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
         </state>
       </provider>
     </entry>
